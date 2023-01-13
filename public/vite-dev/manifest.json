@@ -1,12 +1,14 @@
 {
-  "entrypoints/typography.css": {
-    "file": "assets/typography.cb5a6f38.css",
-    "src": "entrypoints/typography.css",
-    "isEntry": true
+  "entrypoints/application.css": {
+    "file": "assets/application.cb5a6f38.css",
+    "src": "entrypoints/application.css"
   },
   "entrypoints/application.js": {
-    "file": "assets/application.48f65c95.js",
+    "file": "assets/application.a0087713.js",
     "src": "entrypoints/application.js",
-    "isEntry": true
+    "isEntry": true,
+    "css": [
+      "assets/application.cb5a6f38.css"
+    ]
   }
 }

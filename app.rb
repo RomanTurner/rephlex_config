@@ -13,7 +13,7 @@ class App < Roda
     #* if we preconfigure the application js, stylesheet, and client tag we
     #* can just offer additional configuration with an add_to_head:
     #* option for vite_rephlex plugin
-    
+
     #todo: look at the vite_rails tag_helpers for examples.
     #* Most of it is assets on the server, we can easily use
     #* cloudinary for images instead so I don't know if I want to set that up yet
@@ -44,7 +44,7 @@ class App < Roda
     plugin :common_logger, logger
 
     # Load Routes
-    Dir["backend/**/routes.rb"].each do |route_file|
+    Dir["allocs/**/routes.rb"].each do |route_file|
         require_relative route_file
     end
 

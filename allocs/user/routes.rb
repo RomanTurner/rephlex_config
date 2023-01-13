@@ -1,7 +1,7 @@
 class App < Roda
-    hash_branch 'user' do |r|
+    hash_branch 'users' do |r|
         r.get true do
-            h User::DataModel.all
+            User::DataModel.all.to_s
         end
 
         r.on Integer do |id|
