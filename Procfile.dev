@@ -1,2 +1,2 @@
-
 vite: bin/vite dev
+web: rackup
